@@ -1,5 +1,7 @@
 # MIPS Classic Frogger
 
+![project image](./gameplay_img.png)
+
 The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assembler.
 
 ## Table of Contents
