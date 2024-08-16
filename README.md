@@ -4,12 +4,15 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Installation & Setup](#installation--setup)
-    1. [Clone the Repository](#1-clone-the-repository)
-    2. [Assemble the Program](#2-assemble-the-program)
+    1. [Install the MARS Assembler](#1-install-the-mars-assembler)
+        - [Windows](#windows)
+        - [MacOS/Linux](#macoslinux)
+    2. [Clone the Repository](#2-clone-the-repository)
 - [Usage](#usage)
-    - [Running the Game](#running-the-game)
-- [Project Structure](#project-structure)
+    - [Some Assembly Required](#some-assembly-required)
+    - [Its Game Time](#its-game-time)
 - [License](#license)
 
 ## Overview
@@ -35,18 +38,18 @@ The origin repository can be found [here](https://github.com/thomasrussellmurphy
 
 Please follow the instructions below based on your Operating System.
 
-- **Windows**
+#### **Windows**
 
-    1. Download the `.exe` for MARS from the fork of the original assembler: [Mars_2247_0515-4.5.47515.exe](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515-4.5.47515.exe)  
-    2. Double-click the .exe file to run
-    3. (Optional) MD5 Hash: `a3f57e49a2db6501d15c736df389d1ef`
+1. Download the `.exe` for MARS from the fork of the original assembler: [Mars_2247_0515-4.5.47515.exe](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515-4.5.47515.exe)  
+2. Double-click the .exe file to run
+3. (Optional) MD5 Hash: `a3f57e49a2db6501d15c736df389d1ef`
 
-- **MacOS/Linux**
+#### **MacOS/Linux**
 
-    1. Make sure you have Java 11 or later installed. You can find what you need on the [Offical Oracle Downloads page](https://www.oracle.com/java/technologies/downloads/).  
-    2. Download the `.jar` file for MARS from the fork of the original assembler: [Mars_2247_0515.jar](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515.jar)
-    3. You can run it by using the JVM like this: ```java -jar <jarfile>```  
-    4. (Optional) MD5 Hash: `20fcc20f176b80f63b26f5437b1a8795`
+1. Make sure you have Java 11 or later installed. You can find what you need on the [Offical Oracle Downloads page](https://www.oracle.com/java/technologies/downloads/).  
+2. Download the `.jar` file for MARS from the fork of the original assembler: [Mars_2247_0515.jar](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515.jar)
+3. You can run it by using the JVM like this: ```java -jar <jarfile>```  
+4. (Optional) MD5 Hash: `20fcc20f176b80f63b26f5437b1a8795`
 
 ### 2. Clone the Repository
 
