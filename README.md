@@ -2,8 +2,6 @@
 
 The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assembler.
 
-![project image](./image.png)
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -18,6 +16,8 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
 - [License](#license)
 
 ## Overview
+
+![project image](./image.png)
 
 Before beggining with the installation of the program, make sure you understand the purpose of each `.asm` file. 
 
