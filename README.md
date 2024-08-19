@@ -63,7 +63,7 @@ Please follow the instructions based on your OS:
 ## Usage
 
 ### Some Assembly Required
-Open the `.asm` files in your MIPS assembler and assemble them. For example, if you're using MARS:
+Open the `.asm` files in your MIPS assembler and assemble them.
 
 1. Go to **File > Open** in MARS.
 2. Navigate to the `./mips-classic-frogger/src/` directory and select `frogger.asm`.
