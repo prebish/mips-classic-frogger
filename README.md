@@ -12,7 +12,7 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
         - [MacOS/Linux](#macoslinux)
 - [Usage](#usage)
     - [Some Assembly Required](#some-assembly-required)
-    - [Its Game Time](#its-game-time)
+    - [Play the Game](#play-the-game)
 - [License](#license)
 
 ## Description
@@ -71,7 +71,7 @@ Open the `.asm` files in your MIPS assembler and assemble them.
 2. Navigate to the `./mips-classic-frogger/src/` directory and select `frogger.asm`.
 3. Click the **Assemble** button (resembles an 'X' made of tools).
 
-### Its Game time
+### Play the Game
 The project utilizes a tool included in the assembler for displaying gui objects.
 
 1. Open **Tools > Keypad and LED Display Simulator**.
