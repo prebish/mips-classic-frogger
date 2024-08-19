@@ -19,17 +19,19 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
 
 ![project image](./image.png)
 
-Before beggining with the installation of the program, make sure you understand the purpose of each `.asm` file. 
-
-- **src/** - Contains all MIPS assembly source files:
-  - `constants.asm` - Contains constant values used across the program.
-  - `display_2227_0611.asm` - Handles the display logic for the game.
-  - `frogger.asm` - The main game logic and entry point. (Think of this as 'main')
-  - `game_constants.asm` - Game-specific constants like frog speed, obstacle patterns, etc.
-  - `macros.asm` - Contains macros for common ops.
-  - `map.asm` - Manages the game map and layout.
-  - `obj.asm` - Handles object rendering and interactions.
-  - `textures.asm` - Defines the textures used in the game.
+Before beggining with the installation of the program, take a look at the structure of this project:
+```
+root/. -
+└── src/.
+│   ├── constants.asm
+│   ├── display_2227_0611.asm - Handles the display logic for the game.
+│   ├── frogger.asm - Think of this as 'main'
+│   ├── game_constants.asm - Frog speed, obstacle patterns, etc.
+│   ├── macros.asm
+│   ├── map.asm
+│   ├── obj.asm - Object rendering and interactions.
+│   └── textures.asm
+```
 
 ## Installation & Setup
 
