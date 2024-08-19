@@ -21,7 +21,7 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
 
 Before beggining with the installation of the program, take a look at the structure of this project:
 ```
-root/. -
+root/. 
 └── src/.
 │   ├── constants.asm
 │   ├── display_2227_0611.asm - Handles the display logic for the game.
