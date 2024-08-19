@@ -4,18 +4,18 @@ The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assemble
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Description](#description)
 - [Installation & Setup](#installation--setup)
-    1. [Install the MARS Assembler](#1-install-the-mars-assembler)
+    1. [Clone the Repository](#1-clone-the-repository)
+    2. [Install the MARS Assembler](#2-install-the-mars-assembler)
         - [Windows](#windows)
         - [MacOS/Linux](#macoslinux)
-    2. [Clone the Repository](#2-clone-the-repository)
 - [Usage](#usage)
     - [Some Assembly Required](#some-assembly-required)
     - [Its Game Time](#its-game-time)
 - [License](#license)
 
-## Overview
+## Description
 
 ![project image](./image.png)
 
@@ -33,12 +33,19 @@ Before beggining with the installation of the program, make sure you understand 
 
 ## Installation & Setup
 
-### 1. Install the MARS Assembler
+### 1. Clone the Repository
+
+If you haven't already, clone the repository:
+```bash
+git clone https://github.com/prebish/mips-classic-frogger.git
+```
+
+### 2. Install the MARS Assembler
   
 Make sure you have a MIPS assembler and simulator installed. MARS is a commonly used MIPS simulator, which this project has been written with and assembled by.  
 The origin repository can be found [here](https://github.com/thomasrussellmurphy/MARS_Assembler). However, for this project I will be using a fork created by [Jarrett Billingsley](https://github.com/JarrettBillingsley).  
 
-Please follow the instructions below based on your Operating System.
+Please follow the instructions based on your OS:
 
 #### **Windows**
 
@@ -53,13 +60,6 @@ Please follow the instructions below based on your Operating System.
 3. You can run it by using the JVM like this: ```java -jar <jarfile>```  
 4. (Optional) MD5 Hash: `20fcc20f176b80f63b26f5437b1a8795`
 
-### 2. Clone the Repository
-
-If you haven't already, you will have to clone the repository to your machine.
-```bash
-git clone https://github.com/prebish/mips-classic-frogger.git
-```
-
 ## Usage
 
 ### Some Assembly Required
@@ -72,10 +72,9 @@ Open the `.asm` files in your MIPS assembler and assemble them. For example, if 
 ### Its Game time
 The project utilizes a tool included in the assembler for displaying gui objects.
 
-4. Open **Tools > Keypad and LED Display Simulator**.
-5. Click **Connect to MIPS**.
-6. Click **Run** at the top, next to the Assemble button from before. Then you should be ready to play!
+1. Open **Tools > Keypad and LED Display Simulator**.
+2. Click **Connect to MIPS**.
+3. Click **Run** at the top, next to the Assemble button from before. Then you should be ready to play!
 
 ## License
-
 This project is licensed under the **MIT License** - see the `LICENSE` file for details.
