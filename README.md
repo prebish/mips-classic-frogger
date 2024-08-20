@@ -2,20 +2,18 @@
 
 The classic game of Frogger written in MIPS Assembly. Utilizes the MARS assembler.
 
-## Table of Contents
-
+### Table of Contents
 - [Description](#description)
 - [Installation & Setup](#installation--setup)
-    1. [Clone the Repository](#1-clone-the-repository)
-    2. [Install the MARS Assembler](#2-install-the-mars-assembler)
-        - [Windows](#windows)
-        - [MacOS/Linux](#macoslinux)
+    -  [Clone the Repository](#1-clone-the-repository)
+    -  [Install the MARS Assembler](#2-install-the-mars-assembler)
 - [Usage](#usage)
     - [Some Assembly Required](#some-assembly-required)
     - [Play the Game](#play-the-game)
 - [License](#license)
 
 ## Description
+MIPS Classic Frogger is a recreation of the classic Frogger game, written in MIPS Assembly using the MARS assembler. It includes custom game logic, object rendering, and interactions, allowing users to assemble and play the game using a MIPS simulator.
 
 ![project image](./image.png)
 
@@ -49,13 +47,13 @@ The origin repository can be found [here](https://github.com/thomasrussellmurphy
 
 Please follow the instructions based on your OS:
 
-#### **Windows**
+**Windows**
 
 1. Download the `.exe` for MARS from the fork of the original assembler: [Mars_2247_0515-4.5.47515.exe](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515-4.5.47515.exe)  
 2. Double-click the .exe file to run
 3. (Optional) MD5 Hash: `a3f57e49a2db6501d15c736df389d1ef`
 
-#### **MacOS/Linux**
+**MacOS/Linux**
 
 1. Make sure you have Java 11 or later installed. You can find what you need on the [Offical Oracle Downloads page](https://www.oracle.com/java/technologies/downloads/).  
 2. Download the `.jar` file for MARS from the fork of the original assembler: [Mars_2247_0515.jar](https://github.com/JarrettBillingsley/MARS_Assembler/raw/master/downloads/Mars_2247_0515.jar)
